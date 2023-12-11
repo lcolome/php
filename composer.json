@@ -1,0 +1,23 @@
+{
+  "name": "alumne/mp09_colomelluis",
+  "type": "project",
+  "autoload": {
+    "classmap": [
+      "./"
+    ],
+    "files": [
+      "framework/helpers.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "alumne",
+      "email": "lcolome@iesebre.com"
+    }
+  ],
+  "require": {
+      "vlucas/phpdotenv": "^5.5",
+      "ext-pdo": "*"
+  }
+}
+
